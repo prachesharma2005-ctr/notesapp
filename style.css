@@ -1,0 +1,86 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: rgb(17, 2, 33);
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+.container {
+    max-width: 420px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+h1 img {
+    width: 42px;
+}
+
+.create-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgb(101, 7, 138);
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.create-btn img {
+    width: 22px;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.note {
+    width: 100%;
+    height: 125px;
+    background: black;
+    border-radius: 5px;
+    position: relative;
+    padding: 15px;
+}
+
+.note textarea {
+    width: 100%;
+    height: 85px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 12px;
+    bottom: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn img {
+    width: 22px;
+}
